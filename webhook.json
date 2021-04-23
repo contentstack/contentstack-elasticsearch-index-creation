@@ -1,0 +1,24 @@
+{
+    "channels": [
+        "content_types.entries.environments.dev.publish.success",
+        "content_types.entries.environments.unpublish.success",
+        "content_types.entries.delete"
+    ],
+    "disabled": false,
+    "concise_payload": false,
+    "name": "Index in Elasticsearch",
+    "destinations": [
+        {
+            "target_url": "https://3f1bddfb9df1.ngrok.io/api/auto",
+            "http_basic_auth": "",
+            "http_basic_password": "",
+            "custom_header": [
+                {
+                    "header_name": "",
+                    "value": ""
+                }
+            ]
+        }
+    ],
+    "retry_policy": "manual"
+}
