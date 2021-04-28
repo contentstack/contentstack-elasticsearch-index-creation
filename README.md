@@ -7,7 +7,7 @@ Your Elasticsearch node's URL can be provided via a `.env` file or the `ELASTIC_
 #### Step 1
 ```
 $ npm install
-$ npm run
+$ npm start
 ```
  
 #### Step 2
