@@ -1,7 +1,7 @@
 {
     "channels": [
-        "content_types.entries.environments.dev.publish.success",
-        "content_types.entries.environments.unpublish.success",
+        "content_types.entries.environments.development.publish.success",
+        "content_types.entries.environments.development.unpublish.success",
         "content_types.entries.delete"
     ],
     "disabled": false,
