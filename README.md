@@ -18,7 +18,7 @@ $ ngrok http 3000
 
 #### Step 3
 * Import `webhook.json` into Contentstack, and change the `URL to notify` to your ngrok address. Keeping the `/api/auto` segment in the URL.
-* Example: https://e9faa9824a35.ngrok.io/api/auto
+* Example: https://add-ngrok-url-here/api/auto
 
 ## Testing
 Contentstack Index: `http://localhost:9200/contentstack/_search?pretty=true&q=*:*`

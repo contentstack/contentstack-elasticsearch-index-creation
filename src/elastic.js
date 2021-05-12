@@ -12,7 +12,7 @@ const type = process.env.INDEX_TYPE;
  * @description Creates an index in ElasticSearch.
  */
 
-async function createIndex(index) {
+async function createIndex() {
   try {
     await esclient.indices.create({ index });
     console.log(`Created index ${index}`);

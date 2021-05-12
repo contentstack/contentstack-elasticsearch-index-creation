@@ -9,7 +9,7 @@
     "name": "Index in Elasticsearch",
     "destinations": [
         {
-            "target_url": "https://3f1bddfb9df1.ngrok.io/api/auto",
+            "target_url": "https://add-ngrok-url-here.io/api/auto",
             "http_basic_auth": "",
             "http_basic_password": "",
             "custom_header": [
