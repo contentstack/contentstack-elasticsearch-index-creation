@@ -1,9 +1,18 @@
-# Elasticsearch webhook example
-The following is an example of sending Contentstack Entries to Elasticsearch for indexing. The index is created on publish for an Entry/Locale pair. The index is deleted when an entry is unpublished or deleted, based on an Entry/Locale pair.
+[![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)
 
-## Instructions
+# Elasticsearch webhook example
+
+About Contentstack: Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.
+
+Elasticsearch is a popular distributed and open source search engine. It is used for storing, searching, and analyzing huge volumes of data. It provides search results faster than other search engines because instead of searching for text, it searches an index.
+
+In this example, we demonstrate the use of Elasticsearch with Contentstack by sending Contentstack Entries to Elasticsearch for indexing. This index is created when the entry is published and gets deleted when it is deleted.
+
+
+## Execution steps
 
 Your Elasticsearch node's URL can be provided via a `.env` file or the `ELASTIC_URL` environment variable. It defaults to `http://localhost:9200`.
+
 #### Step 1
 ```
 $ npm install
@@ -22,3 +31,9 @@ $ ngrok http 3000
 
 ## Testing
 Contentstack Index: `http://localhost:9200/contentstack/_search?pretty=true&q=*:*`
+
+## Documentation
+
+Read Contentstack [docs](https://www.contentstack.com/docs/)
+
+Read Guide [Elastic Search](will-be-updated)
