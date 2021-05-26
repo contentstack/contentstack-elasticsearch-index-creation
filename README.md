@@ -30,7 +30,7 @@ $ ngrok http 3000
 * Example: https://add-ngrok-url-here/api/auto
 
 ## Testing
-Contentstack Index: `http://localhost:9200/contentstack/_search?pretty=true&q=*:*`
+Contentstack Index: `http://localhost:9200/contentstack/_search`
 
 ## Documentation
 
