@@ -1,8 +1,8 @@
 [![Contentstack](https://www.contentstack.com/docs/static/images/contentstack.png)](https://www.contentstack.com/)
 
-# Elasticsearch webhook example
+# Perform Indexing Using Elasticsearch and Contentstack Webhooks
 
-About Contentstack: Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.
+**About Contentstack**: Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.
 
 Elasticsearch is a popular distributed and open source search engine. It is used for storing, searching, and analyzing huge volumes of data. It provides search results faster than other search engines because instead of searching for text, it searches an index.
 
@@ -36,4 +36,5 @@ Contentstack Index: `http://localhost:9200/contentstack/_search`
 
 Read Contentstack [docs](https://www.contentstack.com/docs/)
 
-Read Guide [Elastic Search](will-be-updated)
+Read Guide [Perform Indexing Using Elasticsearch and Contentstack Webhooks
+](will-be-updated)
