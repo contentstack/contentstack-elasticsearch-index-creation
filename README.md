@@ -37,4 +37,4 @@ Contentstack Index: `http://localhost:9200/contentstack/_search`
 Read Contentstack [docs](https://www.contentstack.com/docs/)
 
 Read Guide [Perform Indexing Using Elasticsearch and Contentstack Webhooks
-](will-be-updated)
+](https://www.contentstack.com/docs/developers/how-to-guides/perform-indexing-using-elasticsearch-and-contentstack-webhooks/)
